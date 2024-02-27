@@ -1,8 +1,14 @@
 <?php
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+$campo_senha = $_GET['campo_senha'];
+$senha = 123;
 
-$num1 = $_GET['numero1'];
-$num2 = $_GET['numero2'];
-$num3 = $num1 + $num2;
-echo $num3;
+if($campo_senha==$senha)
+    echo "logado com sucesso";
+else
+    {
+        echo "senha incorreta";
+    }
 
 ?>
