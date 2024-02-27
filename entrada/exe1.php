@@ -1,8 +1,8 @@
 <?php
 
-$num1 = 10;
-$num2 = 20;
+$num1 = $_GET['numero1'];
+$num2 = $_GET['numero2'];
 $num3 = $num1 + $num2;
-echo $num3. "\n";
+echo $num3;
 
 ?>
