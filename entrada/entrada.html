@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button
+        {
+            background-color: white;
+            border-radius: 4px;
+            border: solid 0.1px white;
+            color: blue;
+        }
+        button:hover
+        {
+            background-color: aqua;
+            border-radius: 4px;
+            border: solid 0.1px aqua;
+            color: white;
+            transition: 0.3s all;
+        }
+    </style>
 </head>
 <body>
     <form action="exe1.php" method="get">
-        <img src="download.jpg" width="1500" height="200"> 
-        <img src="images.jpg" width="1500" height="200">
-         <img src="gil goiaba.jpg" width="1500" height="200">
         <div>
         <label for=""> Digite seu nome</label>
         <input type="text" name="nome" id="nome">
