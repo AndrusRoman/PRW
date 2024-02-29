@@ -50,5 +50,4 @@ else if($salario > 4664.68 && $idade < 65)
    echo "Desconto IFPR = ".number_format($IFPR,2,".","")."\n";
 }
 
-
 ?>
